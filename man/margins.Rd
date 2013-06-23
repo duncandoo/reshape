@@ -15,7 +15,7 @@
 \value{
   list of margining combinations, or \code{NULL} if none.
   These are the combinations of variables that should have
-  their values set to \code{(all)}
+  their values set to \code{all_}
 }
 \description{
   Given the variables that form the rows and columns, and a

@@ -65,11 +65,11 @@ test_that("grand margins are computed correctly", {
 test_that("internal margins are computed correctly", {
   cast <- dcast(chick_m, diet + chick  ~  time, length, margins="diet")
 
-  marg <- subset(cast, diet == "(all)")[-(1:2)]
+  marg <- subset(cast, diet == "all_")[-(1:2)]
   expect_that(as.vector(as.matrix(marg)),
     equals(as.vector(acast(chick_m, time  ~  ., length))))
 
-  joint <- subset(cast, diet != "(all)")
+  joint <- subset(cast, diet != "all_")
   expect_that(joint,
     is_equivalent_to(dcast(chick_m, diet + chick  ~  time, length)))
 })

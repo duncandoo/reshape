@@ -8,7 +8,7 @@
   \item{df}{data frame to guess value column from}
 }
 \description{
-  Strategy: \enumerate{ \item Is value or (all) column
+  Strategy: \enumerate{ \item Is value or 'all_' column
   present? If so, use that \item Otherwise, guess that last
   column is the value column }
 }

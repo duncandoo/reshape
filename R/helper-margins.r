@@ -11,7 +11,7 @@
 #' @keywords manip internal
 #' @return list of margining combinations, or \code{NULL} if none. These are
 #'   the combinations of variables that should have their values set to
-#'   \code{(all)}
+#'   \code{all_}
 margins <- function(vars, margins = NULL) {
   if (is.null(margins) || identical(margins, FALSE)) return(NULL)
 
@@ -73,7 +73,7 @@ add_margins <- function(df, vars, margins = TRUE) {
   rownames(df) <- NULL
 
   # Loop through all combinations of margin variables, setting
-  # those variables to (all)
+  # those variables to all_
   margin_dfs <- llply(margin_vars, function(vars) {
     df[vars] <- rep(list(factor("all_")), length(vars))
     df

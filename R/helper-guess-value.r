@@ -10,7 +10,7 @@
 #' @keywords internal
 guess_value <- function(df) {
   if ("value" %in% names(df)) return("value")
-  if ("(all)" %in% names(df)) return("(all)")
+  if ("all_" %in% names(df)) return("all_")
 
   last <- names(df)[ncol(df)]
   message("Using ", last, " as value column: use value.var to override.")
