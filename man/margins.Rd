@@ -2,7 +2,7 @@
 \alias{margins}
 \title{Figure out margining variables.}
 \usage{
-  margins(vars, margins = NULL)
+margins(vars, margins = NULL)
 }
 \arguments{
   \item{vars}{a list of character vectors giving the
@@ -18,10 +18,9 @@
   their values set to \code{all_}
 }
 \description{
-  Given the variables that form the rows and columns, and a
-  set of desired margins, works out which ones are
-  possible. Variables that can't be margined over are
-  dropped silently.
+Given the variables that form the rows and columns, and a
+set of desired margins, works out which ones are possible.
+Variables that can't be margined over are dropped silently.
 }
 \keyword{internal}
 \keyword{manip}
