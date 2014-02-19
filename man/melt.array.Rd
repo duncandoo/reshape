@@ -50,7 +50,7 @@ melt(a)
 \code{\link{cast}}
 
 Other melt.methods: \code{\link{melt.data.frame}};
-  \code{\link{melt.default}}; \code{\link{melt.list}}
+\code{\link{melt.default}}; \code{\link{melt.list}}
 }
 \keyword{manip}
 
