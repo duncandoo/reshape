@@ -16,6 +16,7 @@ Imports:
     lattice,
     Rcpp
 Suggests:
-    testthat
-License: MIT
+    testthat (>= 0.8.0),
+    lattice
+License: MIT + file LICENSE
 LazyData: true
