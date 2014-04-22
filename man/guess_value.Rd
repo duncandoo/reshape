@@ -6,7 +6,7 @@
   guess_value(df)
 }
 \arguments{
-  \item{df}{data frame to guess value column from}
+\item{df}{data frame to guess value column from}
 }
 \description{
   Strategy: \enumerate{ \item Is value or 'all_' column
