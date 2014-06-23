@@ -13,9 +13,9 @@ dimension}
 \code{TRUE} will compute all possible margins.}
 }
 \value{
-  list of margining combinations, or \code{NULL} if none.
-  These are the combinations of variables that should have
-  their values set to \code{all_}
+list of margining combinations, or \code{NULL} if none. These are
+  the combinations of variables that should have their values set to
+  \code{(all)}
 }
 \description{
 Given the variables that form the rows and columns, and a set of desired

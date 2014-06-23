@@ -13,8 +13,8 @@ LinkingTo: Rcpp
 Imports:
     plyr (>= 1.8.1),
     stringr,
-    lattice,
     Rcpp
+Roxygen: list(wrap = FALSE)
 Suggests:
     testthat (>= 0.8.0),
     lattice
